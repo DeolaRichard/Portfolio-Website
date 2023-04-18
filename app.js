@@ -1,7 +1,7 @@
 const section = document.querySelectorAll(".section");
 const sectBtns = document.querySelectorAll(".controls");
 const sectBtn = document.querySelectorAll(".control");
-const allSections = document.querySelectorAll(".main-content");
+const mainContent = document.querySelectorAll(".main-content")[0];
 
 
 function pageTransition(){
@@ -13,7 +13,12 @@ function pageTransition(){
          this.className += ' active-btn';
         })
     }
+    //sections Active 
+    mainContent.addEventListener('click', (e) => {
+        console.log(e.target);
+      });
+      
 }
 
-pageTransition();
 
+pageTransition();
