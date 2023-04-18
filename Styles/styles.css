@@ -95,7 +95,7 @@ a {
 }
 .controls .active-btn {
   background-color: var(--color-secondary) !important;
-  transition: all 4s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .controls .active-btn i {
   color: var(--color-white) !important;
