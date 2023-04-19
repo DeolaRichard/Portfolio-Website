@@ -15,7 +15,21 @@ function pageTransition(){
     }
     //sections Active 
     mainContent.addEventListener('click', (e) => {
-        console.log(e.target);
+        const id = e.target.dataset.id;
+        if(id) {
+            //Remove Selected Buttons from The Rest
+            sectBtns.forEach((btn)=>{
+                btn.classList.remove ('active')
+            })
+            e.target.classList.add ('active')
+
+            //Hide Other Sections
+            section.forEach((section)=> {
+                section.classList.remove ('active')
+            })
+            const element = document.getElementById(id);
+            element.classList.add('active');
+        }
       });
       
 }
