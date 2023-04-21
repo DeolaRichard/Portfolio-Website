@@ -60,31 +60,26 @@ a {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(90, 159, 205);
 }
 
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: slateblue;
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(205, 151, 90);
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(20, 169, 40);
 }
 
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: rgb(92, 90, 205);
 }
 
 .active {
@@ -144,4 +139,10 @@ a {
   font-size: 0.8rem;
   color: var(--color-grey-2);
   pointer-events: none;
+}
+
+/*Header Content */
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }/*# sourceMappingURL=styles.css.map */
