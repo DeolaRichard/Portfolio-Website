@@ -182,4 +182,17 @@ a {
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
+}
+.header-content .right-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 9rem;
+  font-size: 0.7em;
+}
+.header-content .name {
+  font-size: 1.2rem;
+}
+.header-content .name span {
+  color: var(--color-secondary);
 }/*# sourceMappingURL=styles.css.map */

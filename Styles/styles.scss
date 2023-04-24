@@ -172,4 +172,19 @@ a {
         } 
         }
     }
+
+.right-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 9rem;  
+    font-size: .7em;   
+    }
+    .name {
+        font-size: 1.2rem; 
+        span {
+            color: var(--color-secondary);
+        }
+    }
+   
 }
