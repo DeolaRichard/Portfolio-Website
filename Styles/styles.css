@@ -253,8 +253,7 @@ a {
   background-color: var(--color-grey-5);
 }
 .about-container .left-container {
-  padding-right: 2rem;
-  padding-left: 0.1rem;
+  padding-right: 3rem;
   width: 18rem;
 }
 .about-container .left-container p {
@@ -267,6 +266,26 @@ a {
   text-transform: uppercase;
 }
 
+.about-stats {
+  padding-bottom: 3rem;
+}
+.about-stats .progress-bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.about-stats .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+.about-stats .progress-bars .progress-bar .progress-title {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.about-stats .progress-bars .progress-bar .prog-con {
+  display: flex;
+  align-items: center;
+}
 /* Independent Components*/
 .btn-con {
   display: flex;

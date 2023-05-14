@@ -244,8 +244,8 @@ a {
     }
 
     .left-container {
-        padding-right:2rem;
-        padding-left: 0.1rem;
+        padding-right:3rem;
+  
         width: 18rem;
         p {
             line-height: 1rem;
@@ -258,6 +258,29 @@ a {
         }
     }
 
+}
+.about-stats {
+    padding-bottom: 3rem;
+    .progress-bars {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        .progress-bar {
+            display: flex;
+            flex-direction: column;
+            .progress-title{
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+            .prog-con {
+                display: flex;
+                align-items: center;
+                .prog-text{
+                    
+                }
+            }
+        }
+    }
 }
 /* Independent Components*/
 .btn-con {
