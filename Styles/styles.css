@@ -84,16 +84,7 @@ a {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -255,7 +246,7 @@ a {
 }
 .about-container .left-container {
   padding-right: 0.5rem;
-  width: 18rem;
+  width: 19rem;
   transform: translateX(-30%);
 }
 .about-container .left-container p {
@@ -350,15 +341,27 @@ a {
   grid-gap: 2rem;
   padding-bottom: 2rem;
   transform: translateX(-30%);
+  width: 50rem;
 }
 .timeline .timeline-item {
   position: relative;
-  padding-left: 2rem;
-  border-left: 3px solid var(--color-grey-5);
+  padding-left: 1.5rem;
+  border-left: 1.5px solid var(--color-grey-5);
 }
 .timeline .timeline-item .timeline-icon {
   position: absolute;
-  left: -2px;
+  left: -14px;
+  top: 0;
+  background-color: var(--color-secondary);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline .timeline-item .timeline-icon i {
+  font-size: 1.3rem;
 }
 
 /* Independent Components*/
